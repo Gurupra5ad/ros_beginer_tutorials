@@ -175,6 +175,9 @@ catkin_install_python(PROGRAMS src/turtle_robot_basics/robot_move.py
 catkin_install_python(PROGRAMS src/Iot_sensor_msg/iot_msg_publish.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+catkin_install_python(PROGRAMS src/Iot_sensor_msg/iot_msg_subscribe.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html
