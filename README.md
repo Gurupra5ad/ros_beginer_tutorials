@@ -13,35 +13,35 @@
 -   roscdrosservice info [service_name] - To check all the details about the service that is selected
 -   roscdrossrv info [service_name] - To check all the details about the service that is selected
 -   rosservice call [service_name] [arguments] - To call the particular service on a running node
-## <h2 align="left"> Core ROS Commands </h2>
+## <h2 align="left"> ROS Commands for CMake lists </h2>
 
-####Create a catkin package :
+#### Create a catkin package :
 -   catkin_create_pkg <package_name> [depend1] [depend2] [depend3] 
 
 -----------------------------------------------------------------------------------------------------------------------------------
 #### Making the Python file executable in cmakelists example :
 -   catkin_install_python(PROGRAMS src/pub_sub_basics/talker.py
-    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-    )
+-   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+-   )
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
 #### Custom message adding in cmake lists example :
 -    Generate messages in the 'msg' folder
-        add_message_files(
-        FILES
-        IOTSensor.msg 
-        )
+-        add_message_files(
+-        FILES
+-        IOTSensor.msg 
+-        )
 
--   Add "message_runtime" in catkin packages
+-   /Add "message_runtime" in catkin packages
  
  -----------------------------------------------------------------------------------------------------------------------------------
 #### Custom service adding in cmake lists example :
 -   add_service_files(
-    FILES
-    AddTwoInts.srv
-    )
+-   FILES
+-   AddTwoInts.srv
+-   )
 
--   Check for message generation and message runtime in package.xml then add the service in srv folder 
+-   /Check for message generation and message runtime in package.xml then add the service in srv folder 
 
 -----------------------------------------------------------------------------------------------------------------------------------
