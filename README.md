@@ -13,7 +13,7 @@
 -   **rosservice info [service_name]** - To check all the details about the service that is selected
 -   **rossrv info [service_name]** - To check all the details about the service that is selected
 -   **rosservice call [service_name] [arguments]** - To call the particular service on a running node
-## <h2 align="left"> ROS Commands for CMake lists </h2>
+## <h2 align="left"> ROS basic commands and CMake lists commands </h2>
 
 #### Create a catkin package :
 -      catkin_create_pkg <package_name> [depend1] [depend2] [depend3] 
