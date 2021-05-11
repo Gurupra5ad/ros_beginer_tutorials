@@ -16,13 +16,13 @@
 ## <h2 align="left"> ROS Commands for CMake lists </h2>
 
 #### Create a catkin package :
--   catkin_create_pkg <package_name> [depend1] [depend2] [depend3] 
+-      catkin_create_pkg <package_name> [depend1] [depend2] [depend3] 
 
 -----------------------------------------------------------------------------------------------------------------------------------
 #### Making the Python file executable in cmakelists example :
--   catkin_install_python(PROGRAMS src/pub_sub_basics/talker.py
--   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
--   )
+-      catkin_install_python(PROGRAMS src/pub_sub_basics/talker.py
+       DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+       )
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -37,10 +37,10 @@
  
  -----------------------------------------------------------------------------------------------------------------------------------
 #### Custom service adding in cmake lists example :
--   add_service_files(
--   FILES
--   AddTwoInts.srv
--   )
+-      add_service_files(
+       FILES
+       AddTwoInts.srv
+       )
 
 -   /Check for message generation and message runtime in package.xml then add the service in srv folder 
 
