@@ -1,6 +1,6 @@
 # <h1 align="center"> ROS Basic Tutorials </h1>
 ## <h3 align="left" color="red"> Core ROS Commands </h3>
-<p>
+
 -   roscd - To switch to the main ros directory
 -   roscd [package_name] - To switch to the specific package inside the ros directory
 -   roscdroscore -  To run the main ros server
@@ -13,7 +13,6 @@
 -   roscdrosservice info [service_name] - To check all the details about the service that is selected
 -   roscdrossrv info [service_name] - To check all the details about the service that is selected
 -   rosservice call [service_name] [arguments] - To call the particular service on a running node
-</p>
 ## <h3 align="left" color="red"> Core ROS Commands </h3>
 ### Create a catkin package :
 #### catkin_create_pkg <package_name> [depend1] [depend2] [depend3] 
