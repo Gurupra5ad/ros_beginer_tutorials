@@ -1,18 +1,18 @@
 # <h1 align="center"> ROS Basic Tutorials </h1>
 ## <h2 align="left"> Linux-ROS Commands </h2>
 
--   ** roscd ** - To switch to the main ros directory
--   ** roscd ** [package_name] - To switch to the specific package inside the ros directory
--   ** roscore ** -  To run the main ros server
--   ** rosnode list ** - To check the list of nodes that are running 
--   ** rostopic list ** - To check the list of topics that are running 
--   ** rosnode info [node_name] ** - To check all the details about the selected node
--   ** rostopic info [topic_name] ** - To check all the details about the selected topic
--   ** rosmsg show [msg_name] ** - To check all the details about the particular message that is being sent via topics
--   ** rosservice list ** - To check the list of services that are running on
--   ** rosservice info [service_name] ** - To check all the details about the service that is selected
--   ** rossrv info [service_name] ** - To check all the details about the service that is selected
--   ** rosservice call [service_name] [arguments] ** - To call the particular service on a running node
+-   **roscd** - To switch to the main ros directory
+-   **roscd** [package_name] - To switch to the specific package inside the ros directory
+-   **roscore** -  To run the main ros server
+-   **rosnode list** - To check the list of nodes that are running 
+-   **rostopic list** - To check the list of topics that are running 
+-   **rosnode info [node_name]** - To check all the details about the selected node
+-   **rostopic info [topic_name]** - To check all the details about the selected topic
+-   **rosmsg show [msg_name]** - To check all the details about the particular message that is being sent via topics
+-   **rosservice list** - To check the list of services that are running on
+-   **rosservice info [service_name]** - To check all the details about the service that is selected
+-   **rossrv info [service_name]** - To check all the details about the service that is selected
+-   **rosservice call [service_name] [arguments]** - To call the particular service on a running node
 ## <h2 align="left"> ROS Commands for CMake lists </h2>
 
 #### Create a catkin package :
