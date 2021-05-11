@@ -1,6 +1,5 @@
 # <h1 align="center"> ROS Basic Tutorials </h1>
 ## <h3 align="left" color="red"> Core ROS Commands </h3>
-<p color="yellow">
 #### roscd - To switch to the main ros directory
 #### roscd [package_name] - To switch to the specific package inside the ros directory
 #### roscore -  To run the main ros server
@@ -13,7 +12,6 @@
 #### rosservice info [service_name] - To check all the details about the service that is selected
 #### rossrv info [service_name] - To check all the details about the service that is selected
 #### rosservice call [service_name] [arguments] - To call the particular service on a running node
-</p>
 
 ## <h3 align="left" color="red"> Core ROS Commands </h3>
 ### Create a catkin package :
