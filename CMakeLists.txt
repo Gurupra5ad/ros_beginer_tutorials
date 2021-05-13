@@ -183,6 +183,19 @@ catkin_install_python(PROGRAMS src/add-two-int-service/add_client.py
 catkin_install_python(PROGRAMS src/add-two-int-service/add_server.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+catkin_install_python(PROGRAMS src/motion_in_ros/spiral.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+catkin_install_python(PROGRAMS src/motion_in_ros/move.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+catkin_install_python(PROGRAMS src/motion_in_ros/rotate.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+catkin_install_python(PROGRAMS src/motion_in_ros/go_to_goal.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
 
 
 ## Mark executables for installation
