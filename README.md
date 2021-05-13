@@ -2,7 +2,7 @@
 ## <h2 align="left"> Linux-ROS Commands </h2>
 
 -   **roscd** - To switch to the main ros directory
--   **roscd** [package_name] - To switch to the specific package inside the ros directory
+-   **roscd [package_name]** - To switch to the specific package inside the ros directory
 -   **roscore** -  To run the main ros server
 -   **rosnode list** - To check the list of nodes that are running 
 -   **rostopic list** - To check the list of topics that are running 
@@ -13,6 +13,7 @@
 -   **rosservice info [service_name]** - To check all the details about the service that is selected
 -   **rossrv info [service_name]** - To check all the details about the service that is selected
 -   **rosservice call [service_name] [arguments]** - To call the particular service on a running node
+-   **roslaunch [package_name] [launch_file_name]** - We can add all the nodes that we need to run in a launch file and run the launch file instead of single nodes.
 ## <h2 align="left"> ROS basic commands and CMake lists commands </h2>
 
 #### Create a catkin package :
@@ -44,4 +45,11 @@
 
 -   /Check for message generation and message runtime in package.xml then add the service in srv folder 
 
+-----------------------------------------------------------------------------------------------------------------------------------
+#### Launch file syntax example :
+-      <launch>
+       <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+       <node name="turtlesim_cleaner" pkg="beginer_tutorials" type="spiral.py" output="screen"/>
+       </launch>
+       
 -----------------------------------------------------------------------------------------------------------------------------------
