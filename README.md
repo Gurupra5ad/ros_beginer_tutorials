@@ -57,13 +57,13 @@ launch file instead of single nodes.
        
 -----------------------------------------------------------------------------------------------------------------------------------
 #### OpenCV with ROS:
--      /Install opencv and other tools.
+-   /Install opencv and other tools.
 
 -      sudo apt-get install ros-${distro_name}-opencv3
 -      sudo apt-get install ros-${distro_name}-usb-cam
 -      sudo apt-get install ros-${distro_name}-image-view
 
--      /Now all the ros-opencv programs will be able to run without errors
--      /See linux commands to run usb cam and image view
+-   /Now all the ros-opencv programs will be able to run without errors
+-   /See linux commands to run usb cam and image view
        
 -----------------------------------------------------------------------------------------------------------------------------------
