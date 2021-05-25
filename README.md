@@ -13,7 +13,10 @@
 -   **rosservice info [service_name]** - To check all the details about the service that is selected
 -   **rossrv info [service_name]** - To check all the details about the service that is selected
 -   **rosservice call [service_name] [arguments]** - To call the particular service on a running node
--   **roslaunch [package_name] [launch_file_name]** - We can add all the nodes that we need to run in a launch file and run the launch file instead of single nodes.
+-   **roslaunch [package_name] [launch_file_name]** - We can add all the nodes that we need to run in a launch file and run the 
+launch file instead of single nodes.
+-   **rosrun usb_cam usb_cam_node _pixel_format:=yuyv** - To run the webcam in our laptop for ros related processes
+-   **rosrun image_view image_view image:=/usb_cam/image_raw** - To open the image view tool to access our webcam window and to see  the output
 ## <h2 align="left"> ROS basic commands and CMake lists commands </h2>
 
 #### Create a catkin package :
@@ -51,5 +54,16 @@
        <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen"/>
        <node name="turtlesim_cleaner" pkg="beginer_tutorials" type="spiral.py" output="screen"/>
        </launch>
+       
+-----------------------------------------------------------------------------------------------------------------------------------
+#### OpenCV with ROS:
+-      /Install opencv and other tools.
+
+-      sudo apt-get install ros-${distro_name}-opencv3
+-      sudo apt-get install ros-${distro_name}-usb-cam
+-      sudo apt-get install ros-${distro_name}-image-view
+
+-      /Now all the ros-opencv programs will be able to run without errors
+-      /See linux commands to run usb cam and image view
        
 -----------------------------------------------------------------------------------------------------------------------------------

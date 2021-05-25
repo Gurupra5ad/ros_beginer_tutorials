@@ -195,6 +195,9 @@ catkin_install_python(PROGRAMS src/motion_in_ros/rotate.py
 catkin_install_python(PROGRAMS src/motion_in_ros/go_to_goal.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+catkin_install_python(PROGRAMS src/opencv_ros/image_pub_sub.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 
 
 
